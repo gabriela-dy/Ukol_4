@@ -14,4 +14,4 @@ function vratMaxCislo(cislo1, cislo2, cislo3) {
 }
 
 let maxCislo = vratMaxCislo(cislo1, cislo2, cislo3);
-console.log("Největší číslo je: " + maxCislo);
+document.body.innerHTML = ("Největší číslo je: " + maxCislo);
